@@ -17,6 +17,10 @@
     "products": {
       "via": "category",
       "collection": "product"
+    },
+    "menu": {
+      "via": "category",
+      "model": "menu"
     }
   }
 }

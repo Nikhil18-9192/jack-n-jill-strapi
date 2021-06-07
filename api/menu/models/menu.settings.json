@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "menus",
   "info": {
-    "name": "menu"
+    "name": "menu",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,11 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "categories": {
-      "collection": "category"
+    "category": {
+      "model": "category",
+      "via": "menu"
     },
     "tags": {
       "collection": "tag"
+    },
+    "index": {
+      "type": "integer"
     }
   }
 }
