@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "name": "menu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categories": {
+      "collection": "category"
+    },
+    "tags": {
+      "collection": "tag"
+    }
+  }
+}
