@@ -29,9 +29,8 @@
       "model": "category",
       "via": "products"
     },
-    "tag": {
-      "model": "tag",
-      "via": "products"
+    "tags": {
+      "collection": "tag"
     }
   }
 }

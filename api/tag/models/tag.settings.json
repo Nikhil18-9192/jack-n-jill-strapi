@@ -13,10 +13,6 @@
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "products": {
-      "via": "tag",
-      "collection": "product"
     }
   }
 }
