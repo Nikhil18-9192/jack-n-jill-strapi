@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/explore-cards",
+      "handler": "explore-cards.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/explore-cards",
+      "handler": "explore-cards.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/explore-cards",
+      "handler": "explore-cards.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

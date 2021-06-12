@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "explore_cards",
+  "info": {
+    "name": "Explore Cards"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.explore-card"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_cards_explore_cards",
+  "info": {
+    "name": "Explore Card",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
