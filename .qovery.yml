@@ -3,13 +3,9 @@ application:
   name: "jack-n-jill-strapi"
   project: "j-j"
   organization: "QoveryCommunity"
-databases:
-- type: "POSTGRESQL"
-  name: "psql"
-  version: "12"
 routers:
-- name: "main-jack-n-jill-strapi"
-  routes:
-  - application_name: "jack-n-jill-strapi"
-    paths:
-    - "/*"
+  - name: "main-jack-n-jill-strapi"
+    routes:
+      - application_name: "jack-n-jill-strapi"
+        paths:
+          - "/*"
