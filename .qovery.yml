@@ -9,6 +9,6 @@ databases:
 routers:
   - name: main
     routes:
-      - application_name: strapi
+      - application_name: jj-strapi
         paths:
           - /*
