@@ -13,8 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "category": {
-      "model": "category",
-      "via": "menu"
+      "via": "menu",
+      "model": "category"
     },
     "tags": {
       "collection": "tag"

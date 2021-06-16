@@ -26,11 +26,14 @@
       "type": "string"
     },
     "category": {
-      "model": "category",
-      "via": "products"
+      "via": "products",
+      "model": "category"
     },
     "tags": {
       "collection": "tag"
+    },
+    "keywords": {
+      "type": "json"
     }
   }
 }
