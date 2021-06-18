@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "carousel_cards",
+  "info": {
+    "name": "carousel cards"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "categoryCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.category-card"
+    }
+  }
+}
