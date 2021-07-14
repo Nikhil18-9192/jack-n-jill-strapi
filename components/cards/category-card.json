@@ -20,8 +20,8 @@
     "category": {
       "model": "category"
     },
-    "tags": {
-      "collection": "tag"
+    "tag": {
+      "model": "tag"
     },
     "title": {
       "type": "string"
