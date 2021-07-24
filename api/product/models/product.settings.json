@@ -34,6 +34,11 @@
     },
     "keywords": {
       "type": "json"
+    },
+    "subProduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "products.products"
     }
   }
 }
